@@ -1,0 +1,47 @@
+#Background {
+    background-color: blanchedalmond;
+    background-image: url("Background Effect.jpg");
+    background-repeat: no-repeat;
+    background-position: 30% 15%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 688px;
+    width: 1000px;
+    color: white;
+}
+
+#Gradient1 {
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to bottom, white, black);
+}
+
+#Gradient2 {
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(red 20%, orange 30%, yellow 50%);
+    margin-top: 20px;
+}
+
+@keyframes AnimationColors {
+    0% {
+        background-color: azure;
+    }
+    25% {
+        background-color: darkkhaki;
+    }
+    50% {
+        background-color: firebrick;
+    }
+    100% {
+        background-color: cornflowerblue;
+    }
+}
+
+#Animation {
+    height: 400px;
+    width: 400px;
+    animation-duration: 5s;
+    animation-name: AnimationColors;
+}
+
